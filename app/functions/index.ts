@@ -1,5 +1,5 @@
 export function getEnding(input: number) {
-    let number = Math.abs(input);
+    const number = Math.abs(input);
     if (number % 100 >= 11 && number % 100 <= 14) {
         return `${number} товаров`;
     }

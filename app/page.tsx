@@ -1,8 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { categories, products } from './data/products';
-import ProductCard from './components/ProductCard';
-import { Product } from './types/product';
 import LightboxImage from './components/LighboxImage';
 import ProductsSwiper from './components/ProductsSwiper';
 
@@ -139,50 +137,86 @@ export default function Home() {
 
                                 <div className='grid grid-cols-2 h-full'>
                                     <div className='flex justify-center items-center border-t border-r h-full border-gray-200'>
-                                        <img
+                                        <Image
                                             className='h-6'
                                             src='/grass.svg'
                                             alt='Grass'
+                                            width={24}
+                                            height={24}
+                                            style={{
+                                                width: 'auto',
+                                                height: 'auto',
+                                            }}
                                         />
                                     </div>
 
                                     <div className='flex justify-center items-center border-t border-r h-full border-gray-200'>
-                                        <img
+                                        <Image
                                             className='h-6'
                                             src='/homag.svg'
                                             alt='Homag'
+                                            width={24}
+                                            height={24}
+                                            style={{
+                                                width: 'auto',
+                                                height: 'auto',
+                                            }}
                                         />
                                     </div>
 
                                     <div className='flex justify-center items-center border-t border-r h-full border-gray-200'>
-                                        <img
+                                        <Image
                                             className='h-10'
                                             src='/altendorf.svg'
                                             alt='Altendorf'
+                                            width={40}
+                                            height={40}
+                                            style={{
+                                                width: 'auto',
+                                                height: 'auto',
+                                            }}
                                         />
                                     </div>
 
                                     <div className='flex justify-center items-center border-t border-r h-full border-gray-200'>
-                                        <img
+                                        <Image
                                             className='h-8'
                                             src='/bosch.svg'
                                             alt='Bosch'
+                                            width={32}
+                                            height={32}
+                                            style={{
+                                                width: 'auto',
+                                                height: 'auto',
+                                            }}
                                         />
                                     </div>
 
                                     <div className='flex justify-center items-center border-t border-r h-full border-gray-200'>
-                                        <img
+                                        <Image
                                             className='h-10'
                                             src='/weeke.svg'
                                             alt='Weeke'
+                                            width={40}
+                                            height={40}
+                                            style={{
+                                                width: 'auto',
+                                                height: 'auto',
+                                            }}
                                         />
                                     </div>
 
                                     <div className='flex justify-center items-center border-t border-r h-full border-gray-200'>
-                                        <img
+                                        <Image
                                             className='h-10'
                                             src='/brandt.svg'
                                             alt='Brandt'
+                                            width={40}
+                                            height={40}
+                                            style={{
+                                                width: 'auto',
+                                                height: 'auto',
+                                            }}
                                         />
                                     </div>
                                 </div>
@@ -311,10 +345,16 @@ export default function Home() {
                                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
                                     <div className='bg-white p-4 rounded-lg shadow-md'>
                                         <div className='flex items-center gap-2'>
-                                            <img
+                                            <Image
                                                 className='h-6'
                                                 src='/time.svg'
                                                 alt='Долговечность'
+                                                width={24}
+                                                height={24}
+                                                style={{
+                                                    width: 'auto',
+                                                    height: 'auto',
+                                                }}
                                             />
                                             <span className='font-medium text-gray-900'>
                                                 долговечность
@@ -323,10 +363,16 @@ export default function Home() {
                                     </div>
                                     <div className='bg-white p-4 rounded-lg shadow-md'>
                                         <div className='flex items-center gap-2'>
-                                            <img
+                                            <Image
                                                 className='h-6'
                                                 src='/drop.svg'
                                                 alt='Bлагоустойчивость'
+                                                width={24}
+                                                height={24}
+                                                style={{
+                                                    width: 'auto',
+                                                    height: 'auto',
+                                                }}
                                             />
                                             <span className='font-medium text-gray-900'>
                                                 влагоустойчивость
@@ -335,10 +381,16 @@ export default function Home() {
                                     </div>
                                     <div className='bg-white p-4 rounded-lg shadow-md'>
                                         <div className='flex items-center gap-2'>
-                                            <img
+                                            <Image
                                                 className='h-6'
                                                 src='/spark.svg'
                                                 alt='Износостойкость'
+                                                width={24}
+                                                height={24}
+                                                style={{
+                                                    width: 'auto',
+                                                    height: 'auto',
+                                                }}
                                             />
                                             <span className='font-medium text-gray-900'>
                                                 износостойкость
@@ -347,10 +399,16 @@ export default function Home() {
                                     </div>
                                     <div className='bg-white p-4 rounded-lg shadow-md'>
                                         <div className='flex items-center gap-2'>
-                                            <img
+                                            <Image
                                                 className='h-6'
                                                 src='/arrow.svg'
                                                 alt='Низкая стоимость'
+                                                width={24}
+                                                height={24}
+                                                style={{
+                                                    width: 'auto',
+                                                    height: 'auto',
+                                                }}
                                             />
                                             <span className='font-medium text-gray-900'>
                                                 низкая стоимость

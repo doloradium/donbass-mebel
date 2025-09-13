@@ -1,9 +1,5 @@
 import { notFound } from 'next/navigation';
-import {
-    products,
-    categories,
-    getProductsByCategory,
-} from '../../data/products';
+import { categories, getProductsByCategory } from '../../data/products';
 import ProductCard from '../../components/ProductCard';
 import Link from 'next/link';
 import { getEnding } from '@/app/functions';

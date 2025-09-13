@@ -1,5 +1,4 @@
 import { notFound } from 'next/navigation';
-import Image from 'next/image';
 import Link from 'next/link';
 import {
     getProductById,
@@ -7,15 +6,13 @@ import {
     getProductsByCategory,
     categories,
 } from '../../data/products';
-import ProductCard from '../../components/ProductCard';
-import Lightbox from 'yet-another-react-lightbox';
 import LightboxImage from '@/app/components/LighboxImage';
 import ProductsSwiper from '@/app/components/ProductsSwiper';
 
 interface ProductPageProps {
-    params: {
+    params: Promise<{
         id: string;
-    };
+    }>;
 }
 
 export async function generateStaticParams() {
