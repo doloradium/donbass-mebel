@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+    // Disable telemetry to avoid permission issues
+    // telemetry: false,
 };
 
 export default nextConfig;

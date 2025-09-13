@@ -1,26 +1,87 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --background: #ffffff;
+    --foreground: #ffffff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-synthesis: none;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1024px) {
+    :root {
+        font-size: 14px;
+    }
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-sans: var(--font-montserrat);
+    /* --font-mono: var(--font-geist-mono); */
+    --font-heading: var(--font-unbounded);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@media (prefers-color-scheme: light) {
+    :root {
+        --background: #ededed;
+        --foreground: #000000;
+    }
+}
+
+html {
+    font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.yarl__button {
+    filter: drop-shadow(0px 0px white) !important;
+}
+
+.yarl__button:disabled {
+    opacity: 0.5 !important;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Heading font is applied via the `font-heading` utility on specific elements */
+
+/* Line clamp utilities */
+.line-clamp-2 {
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Smooth transitions */
+* {
+    transition-property: color, background-color, border-color,
+        text-decoration-color, fill, stroke, opacity, box-shadow, transform,
+        filter, backdrop-filter;
+    transition-timing-function: ease-out;
+    transition-duration: 200ms;
 }
