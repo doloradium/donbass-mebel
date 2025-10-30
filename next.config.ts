@@ -1,8 +1,11 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-    // Disable telemetry to avoid permission issues
-    // telemetry: false,
+    output: 'export',
+    trailingSlash: true,
+    images: {
+        unoptimized: true,
+    },
 };
 
 export default nextConfig;

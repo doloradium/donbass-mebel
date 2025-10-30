@@ -82,6 +82,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                         <div className='relative h-96 lg:h-[500px] shadow-md hover:shadow-xl bg-gray-200 rounded-lg overflow-hidden'>
                             <LightboxImage
                                 image={product.image}
+                                imageMin={product.imageMin}
                                 name={product.name}
                                 className='object-contain p-4'
                                 color='rgb(229, 231, 235, 1)'

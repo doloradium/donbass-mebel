@@ -10,6 +10,7 @@ interface LightboxProps {
     image: string;
     className?: string;
     color: string;
+    imageMin?: string;
 }
 
 export default function LightboxImage({
@@ -17,19 +18,27 @@ export default function LightboxImage({
     image,
     className,
     color,
+    imageMin,
 }: LightboxProps) {
     const [open, setOpen] = React.useState(false);
     const slides = [{ src: image }];
 
     return (
         <>
-            <Image
+            {/* <Image
                 onClick={() => setOpen(true)}
                 src={image}
                 alt={name}
                 fill
                 sizes='800px'
                 className={`cursor-pointer scale-100 hover:scale-110 !transition-transform !duration-300 ease-in-out ${className}`}
+            /> */}
+            <img
+                onClick={() => setOpen(true)}
+                src={imageMin ?? image}
+                alt={name}
+                loading='lazy'
+                className={`block object-contain object-center w-full h-full cursor-pointer scale-100 hover:scale-110 !transition-transform !duration-300 ease-in-out ${className}`}
             />
             <Lightbox
                 render={{

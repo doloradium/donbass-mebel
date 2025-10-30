@@ -36,7 +36,7 @@ export default function Footer() {
                         <ul className='space-y-2'>
                             <li>
                                 <Link
-                                    href='/'
+                                    href='/#about'
                                     className='text-gray-300 hover:text-white transition-colors'
                                 >
                                     О нас
@@ -44,7 +44,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    href='/catalogue'
+                                    href='/#contacts'
                                     className='text-gray-300 hover:text-white transition-colors'
                                 >
                                     Контакты
@@ -52,7 +52,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    href='/catalogue/sofas'
+                                    href='/catalogue'
                                     className='text-gray-300 hover:text-white transition-colors'
                                 >
                                     Каталог

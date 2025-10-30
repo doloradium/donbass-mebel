@@ -4,7 +4,8 @@ export const products: Product[] = [
     {
         id: 1,
         name: 'Мариус',
-        image: '/media/1.png',
+        image: '/1.png',
+        imageMin: '/1-min.png',
         categoryId: 'soft-corners',
         dimensions: {
             length: '1650',
@@ -17,7 +18,8 @@ export const products: Product[] = [
     {
         id: 2,
         name: 'Витязь',
-        image: '/media/2.png',
+        image: '/2.png',
+        imageMin: '/2-min.png',
         categoryId: 'soft-corners',
         dimensions: {
             length: '1640',
@@ -30,7 +32,8 @@ export const products: Product[] = [
     {
         id: 3,
         name: 'Витязь раскладной',
-        image: '/media/3.png',
+        image: '/3.png',
+        imageMin: '/3-min.png',
         categoryId: 'soft-corners',
         dimensions: {
             length: '1760',
@@ -43,7 +46,8 @@ export const products: Product[] = [
     {
         id: 4,
         name: 'Микс раскладной',
-        image: '/media/4.png',
+        image: '/4.png',
+        imageMin: '/4-min.png',
         categoryId: 'soft-corners',
         dimensions: {
             length: '1850',
@@ -56,7 +60,8 @@ export const products: Product[] = [
     {
         id: 5,
         name: 'Пальма 1',
-        image: '/media/5.png',
+        image: '/5.png',
+        imageMin: '/5-min.png',
         categoryId: 'soft-corners',
         dimensions: {
             length: '1510',
@@ -69,7 +74,8 @@ export const products: Product[] = [
     {
         id: 6,
         name: 'Шарм',
-        image: '/media/6.png',
+        image: '/6.png',
+        imageMin: '/6-min.png',
         categoryId: 'soft-corners',
         dimensions: {
             length: '1590',
@@ -82,7 +88,8 @@ export const products: Product[] = [
     {
         id: 7,
         name: 'Орион',
-        image: '/media/7.png',
+        image: '/7.png',
+        imageMin: '/7-min.png',
         categoryId: 'soft-corners',
         dimensions: {
             length: '1580',
@@ -95,7 +102,8 @@ export const products: Product[] = [
     {
         id: 8,
         name: 'Пальма',
-        image: '/media/8.png',
+        image: '/8.png',
+        imageMin: '/8-min.png',
         categoryId: 'soft-corners',
         dimensions: {
             length: '1670',
@@ -108,7 +116,8 @@ export const products: Product[] = [
     {
         id: 9,
         name: 'Соул',
-        image: '/media/9.png',
+        image: '/9.png',
+        imageMin: '/9-min.png',
         categoryId: 'soft-corners',
         dimensions: {
             length: '1600',
@@ -121,7 +130,8 @@ export const products: Product[] = [
     {
         id: 10,
         name: 'Нимфа',
-        image: '/media/10.png',
+        image: '/10.png',
+        imageMin: '/10-min.png',
         categoryId: 'soft-corners',
         dimensions: {
             length: '1520',
@@ -134,7 +144,8 @@ export const products: Product[] = [
     {
         id: 11,
         name: 'Карман',
-        image: '/media/11.png',
+        image: '/11.png',
+        imageMin: '/11-min.png',
         categoryId: 'soft-corners',
         dimensions: {
             length: '1630',
@@ -147,7 +158,8 @@ export const products: Product[] = [
     {
         id: 12,
         name: 'Кантри',
-        image: '/media/12.png',
+        image: '/12.png',
+        imageMin: '/12-min.png',
         categoryId: 'soft-corners',
         dimensions: {
             length: '1830',
@@ -160,7 +172,8 @@ export const products: Product[] = [
     {
         id: 13,
         name: 'Орион',
-        image: '/media/13.png',
+        image: '/13.png',
+        imageMin: '/13-min.png',
         categoryId: 'soft-benches',
         dimensions: {
             length: '1030',
@@ -172,7 +185,8 @@ export const products: Product[] = [
     {
         id: 14,
         name: 'Пальма',
-        image: '/media/14.png',
+        image: '/14.png',
+        imageMin: '/14-min.png',
         categoryId: 'soft-benches',
         dimensions: {
             length: '1100',
@@ -184,7 +198,8 @@ export const products: Product[] = [
     {
         id: 15,
         name: 'Витязь',
-        image: '/media/15.png',
+        image: '/15.png',
+        imageMin: '/15-min.png',
         categoryId: 'soft-benches',
         dimensions: {
             length: '1000',
@@ -196,7 +211,8 @@ export const products: Product[] = [
     {
         id: 16,
         name: 'Мариус',
-        image: '/media/16.png',
+        image: '/16.png',
+        imageMin: '/16-min.png',
         categoryId: 'soft-benches',
         dimensions: {
             length: '1240',
@@ -208,7 +224,8 @@ export const products: Product[] = [
     {
         id: 17,
         name: 'Нимфа',
-        image: '/media/17.png',
+        image: '/17.png',
+        imageMin: '/17-min.png',
         categoryId: 'soft-benches',
         dimensions: {
             length: '1000',
@@ -220,7 +237,8 @@ export const products: Product[] = [
     {
         id: 18,
         name: 'Соул',
-        image: '/media/18.png',
+        image: '/18.png',
+        imageMin: '/18-min.png',
         categoryId: 'soft-benches',
         dimensions: {
             length: '1000',
@@ -232,7 +250,8 @@ export const products: Product[] = [
     {
         id: 19,
         name: 'Шарм',
-        image: '/media/19.png',
+        image: '/19.png',
+        imageMin: '/19-min.png',
         categoryId: 'soft-benches',
         dimensions: {
             length: '1000',
@@ -244,7 +263,8 @@ export const products: Product[] = [
     {
         id: 20,
         name: 'Карман',
-        image: '/media/20.png',
+        image: '/20.png',
+        imageMin: '/20-min.png',
         categoryId: 'soft-benches',
         dimensions: {
             length: '1170',
@@ -256,7 +276,8 @@ export const products: Product[] = [
     {
         id: 21,
         name: 'Пуф 1',
-        image: '/media/21.png',
+        image: '/21.png',
+        imageMin: '/21-min.png',
         categoryId: 'poufs',
         dimensions: {
             diameter: '380',
@@ -267,7 +288,8 @@ export const products: Product[] = [
     {
         id: 22,
         name: 'Пуф 2',
-        image: '/media/22.png',
+        image: '/22.png',
+        imageMin: '/22-min.png',
         categoryId: 'poufs',
         dimensions: {
             length: '450',
@@ -279,7 +301,8 @@ export const products: Product[] = [
     {
         id: 23,
         name: 'Пуф 3',
-        image: '/media/23.png',
+        image: '/23.png',
+        imageMin: '/23-min.png',
         categoryId: 'poufs',
         dimensions: {
             length: '450',
@@ -291,7 +314,8 @@ export const products: Product[] = [
     {
         id: 24,
         name: 'Пуф 4',
-        image: '/media/24.png',
+        image: '/24.png',
+        imageMin: '/24-min.png',
         categoryId: 'poufs',
         dimensions: {
             length: '450',
@@ -303,7 +327,8 @@ export const products: Product[] = [
     {
         id: 25,
         name: 'Модерн',
-        image: '/media/25.png',
+        image: '/25.png',
+        imageMin: '/25-min.png',
         categoryId: 'poufs',
         dimensions: {
             length: '1000',
@@ -315,7 +340,8 @@ export const products: Product[] = [
     {
         id: 26,
         name: 'Полка 1',
-        image: '/media/26.png',
+        image: '/26.png',
+        imageMin: '/26-min.png',
         categoryId: 'shelves',
         dimensions: {
             width: '300',
@@ -327,7 +353,8 @@ export const products: Product[] = [
     {
         id: 27,
         name: 'Полка 2',
-        image: '/media/27.png',
+        image: '/27.png',
+        imageMin: '/27-min.png',
         categoryId: 'shelves',
         dimensions: {
             width: '290',
@@ -339,7 +366,8 @@ export const products: Product[] = [
     {
         id: 28,
         name: 'Полка 3',
-        image: '/media/28.png',
+        image: '/28.png',
+        imageMin: '/28-min.png',
         categoryId: 'shelves',
         dimensions: {
             width: '470',
@@ -351,7 +379,8 @@ export const products: Product[] = [
     {
         id: 29,
         name: 'Мини',
-        image: '/media/29.png',
+        image: '/29.png',
+        imageMin: '/29-min.png',
         categoryId: 'kitchen-corners',
         dimensionsComplex: {
             corner: {
@@ -376,7 +405,8 @@ export const products: Product[] = [
     {
         id: 30,
         name: 'Мини',
-        image: '/media/30.png',
+        image: '/30.png',
+        imageMin: '/30-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -402,7 +432,8 @@ export const products: Product[] = [
     {
         id: 31,
         name: 'Мини',
-        image: '/media/31.png',
+        image: '/31.png',
+        imageMin: '/31-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -428,7 +459,8 @@ export const products: Product[] = [
     {
         id: 32,
         name: 'Классик',
-        image: '/media/32.png',
+        image: '/32.png',
+        imageMin: '/32-min.png',
         categoryId: 'kitchen-corners',
         dimensionsComplex: {
             corner: {
@@ -453,7 +485,8 @@ export const products: Product[] = [
     {
         id: 33,
         name: 'Классик',
-        image: '/media/33.png',
+        image: '/33.png',
+        imageMin: '/33-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -479,7 +512,8 @@ export const products: Product[] = [
     {
         id: 34,
         name: 'Классик',
-        image: '/media/34.png',
+        image: '/34.png',
+        imageMin: '/34-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -505,7 +539,8 @@ export const products: Product[] = [
     {
         id: 35,
         name: 'Сабрина',
-        image: '/media/35.png',
+        image: '/35.png',
+        imageMin: '/35-min.png',
         categoryId: 'kitchen-corners',
         dimensionsComplex: {
             corner: {
@@ -530,7 +565,8 @@ export const products: Product[] = [
     {
         id: 36,
         name: 'Сабрина',
-        image: '/media/36.png',
+        image: '/36.png',
+        imageMin: '/36-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -556,7 +592,8 @@ export const products: Product[] = [
     {
         id: 37,
         name: 'Сабрина',
-        image: '/media/37.png',
+        image: '/37.png',
+        imageMin: '/37-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -582,7 +619,8 @@ export const products: Product[] = [
     {
         id: 38,
         name: 'Колорит',
-        image: '/media/38.png',
+        image: '/38.png',
+        imageMin: '/38-min.png',
         categoryId: 'kitchen-corners',
         dimensionsComplex: {
             corner: {
@@ -607,7 +645,8 @@ export const products: Product[] = [
     {
         id: 39,
         name: 'Колорит',
-        image: '/media/39.png',
+        image: '/39.png',
+        imageMin: '/39-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -633,7 +672,8 @@ export const products: Product[] = [
     {
         id: 40,
         name: 'Колорит',
-        image: '/media/40.png',
+        image: '/40.png',
+        imageMin: '/40-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -659,7 +699,8 @@ export const products: Product[] = [
     {
         id: 41,
         name: 'Корона',
-        image: '/media/41.png',
+        image: '/41.png',
+        imageMin: '/41-min.png',
         categoryId: 'kitchen-corners',
         dimensionsComplex: {
             corner: {
@@ -684,7 +725,8 @@ export const products: Product[] = [
     {
         id: 42,
         name: 'Корона',
-        image: '/media/42.png',
+        image: '/42.png',
+        imageMin: '/42-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -710,7 +752,8 @@ export const products: Product[] = [
     {
         id: 43,
         name: 'Корона',
-        image: '/media/43.png',
+        image: '/43.png',
+        imageMin: '/43-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -736,7 +779,8 @@ export const products: Product[] = [
     {
         id: 44,
         name: 'Люкс',
-        image: '/media/44.png',
+        image: '/44.png',
+        imageMin: '/44-min.png',
         categoryId: 'kitchen-corners',
         dimensionsComplex: {
             corner: {
@@ -761,7 +805,8 @@ export const products: Product[] = [
     {
         id: 45,
         name: 'Люкс',
-        image: '/media/45.png',
+        image: '/45.png',
+        imageMin: '/45-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -787,7 +832,8 @@ export const products: Product[] = [
     {
         id: 46,
         name: 'Люкс',
-        image: '/media/46.png',
+        image: '/46.png',
+        imageMin: '/46-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -813,7 +859,8 @@ export const products: Product[] = [
     {
         id: 47,
         name: 'Люксор',
-        image: '/media/47.png',
+        image: '/47.png',
+        imageMin: '/47-min.png',
         categoryId: 'kitchen-corners',
         dimensionsComplex: {
             corner: {
@@ -838,7 +885,8 @@ export const products: Product[] = [
     {
         id: 48,
         name: 'Люксор',
-        image: '/media/48.png',
+        image: '/48.png',
+        imageMin: '/48-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -864,7 +912,8 @@ export const products: Product[] = [
     {
         id: 49,
         name: 'Люксор',
-        image: '/media/49.png',
+        image: '/49.png',
+        imageMin: '/49-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -890,7 +939,8 @@ export const products: Product[] = [
     {
         id: 50,
         name: 'Колизей',
-        image: '/media/50.png',
+        image: '/50.png',
+        imageMin: '/50-min.png',
         categoryId: 'kitchen-corners',
         dimensionsComplex: {
             corner: {
@@ -915,7 +965,8 @@ export const products: Product[] = [
     {
         id: 51,
         name: 'Томас',
-        image: '/media/51.png',
+        image: '/51.png',
+        imageMin: '/51-min.png',
         categoryId: 'kitchen-corners',
         dimensionsComplex: {
             corner: {
@@ -940,7 +991,8 @@ export const products: Product[] = [
     {
         id: 52,
         name: 'Томас',
-        image: '/media/52.png',
+        image: '/52.png',
+        imageMin: '/52-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -966,7 +1018,8 @@ export const products: Product[] = [
     {
         id: 53,
         name: 'Томас люкс',
-        image: '/media/53.png',
+        image: '/53.png',
+        imageMin: '/53-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -992,7 +1045,8 @@ export const products: Product[] = [
     {
         id: 54,
         name: 'Томас люкс',
-        image: '/media/54.png',
+        image: '/54.png',
+        imageMin: '/54-min.png',
         categoryId: 'kitchen-corners',
         dimensionsComplex: {
             corner: {
@@ -1017,7 +1071,8 @@ export const products: Product[] = [
     {
         id: 55,
         name: 'Самурай',
-        image: '/media/55.png',
+        image: '/55.png',
+        imageMin: '/55-min.png',
         categoryId: 'kitchen-corners',
         dimensionsComplex: {
             corner: {
@@ -1042,7 +1097,8 @@ export const products: Product[] = [
     {
         id: 56,
         name: 'Самурай',
-        image: '/media/56.png',
+        image: '/56.png',
+        imageMin: '/56-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -1068,7 +1124,8 @@ export const products: Product[] = [
     {
         id: 57,
         name: 'Фараон',
-        image: '/media/57.png',
+        image: '/57.png',
+        imageMin: '/57-min.png',
         categoryId: 'kitchen-corners',
         dimensionsComplex: {
             corner: {
@@ -1093,7 +1150,8 @@ export const products: Product[] = [
     {
         id: 58,
         name: 'Фараон',
-        image: '/media/58.png',
+        image: '/58.png',
+        imageMin: '/58-min.png',
         categoryId: 'kitchen-corners',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -1119,7 +1177,8 @@ export const products: Product[] = [
     {
         id: 59,
         name: 'Мини',
-        image: '/media/59.png',
+        image: '/59.png',
+        imageMin: '/59-min.png',
         categoryId: 'dining-groups',
         dimensionsComplex: {
             stool: {
@@ -1138,7 +1197,8 @@ export const products: Product[] = [
     {
         id: 60,
         name: 'Мини',
-        image: '/media/60.png',
+        image: '/60.png',
+        imageMin: '/60-min.png',
         categoryId: 'dining-groups',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -1158,7 +1218,8 @@ export const products: Product[] = [
     {
         id: 61,
         name: 'Мини',
-        image: '/media/61.png',
+        image: '/61.png',
+        imageMin: '/61-min.png',
         categoryId: 'dining-groups',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -1178,7 +1239,8 @@ export const products: Product[] = [
     {
         id: 62,
         name: 'Классик',
-        image: '/media/62.png',
+        image: '/62.png',
+        imageMin: '/62-min.png',
         categoryId: 'dining-groups',
         dimensionsComplex: {
             stool: {
@@ -1197,7 +1259,8 @@ export const products: Product[] = [
     {
         id: 63,
         name: 'Классик',
-        image: '/media/63.png',
+        image: '/63.png',
+        imageMin: '/63-min.png',
         categoryId: 'dining-groups',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -1217,7 +1280,8 @@ export const products: Product[] = [
     {
         id: 64,
         name: 'Классик',
-        image: '/media/64.png',
+        image: '/64.png',
+        imageMin: '/64-min.png',
         categoryId: 'dining-groups',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -1237,7 +1301,8 @@ export const products: Product[] = [
     {
         id: 65,
         name: 'Сабрина',
-        image: '/media/65.png',
+        image: '/65.png',
+        imageMin: '/65-min.png',
         categoryId: 'dining-groups',
         dimensionsComplex: {
             stool: {
@@ -1256,7 +1321,8 @@ export const products: Product[] = [
     {
         id: 66,
         name: 'Сабрина',
-        image: '/media/66.png',
+        image: '/66.png',
+        imageMin: '/66-min.png',
         categoryId: 'dining-groups',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -1276,7 +1342,8 @@ export const products: Product[] = [
     {
         id: 67,
         name: 'Сабрина',
-        image: '/media/67.png',
+        image: '/67.png',
+        imageMin: '/67-min.png',
         categoryId: 'dining-groups',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -1296,7 +1363,8 @@ export const products: Product[] = [
     {
         id: 68,
         name: 'Корона',
-        image: '/media/68.png',
+        image: '/68.png',
+        imageMin: '/68-min.png',
         categoryId: 'dining-groups',
         dimensionsComplex: {
             stool: {
@@ -1315,7 +1383,8 @@ export const products: Product[] = [
     {
         id: 69,
         name: 'Корона',
-        image: '/media/69.png',
+        image: '/69.png',
+        imageMin: '/69-min.png',
         categoryId: 'dining-groups',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -1335,7 +1404,8 @@ export const products: Product[] = [
     {
         id: 70,
         name: 'Корона',
-        image: '/media/70.png',
+        image: '/70.png',
+        imageMin: '/70-min.png',
         categoryId: 'dining-groups',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -1355,7 +1425,8 @@ export const products: Product[] = [
     {
         id: 71,
         name: 'Томас люкс',
-        image: '/media/71.png',
+        image: '/71.png',
+        imageMin: '/71-min.png',
         categoryId: 'dining-groups',
         dimensionsComplex: {
             stool: {
@@ -1374,7 +1445,8 @@ export const products: Product[] = [
     {
         id: 72,
         name: 'Томас люкс',
-        image: '/media/72.png',
+        image: '/72.png',
+        imageMin: '/72-min.png',
         categoryId: 'dining-groups',
         extra: 'стол раздвижной',
         dimensionsComplex: {
@@ -1394,7 +1466,8 @@ export const products: Product[] = [
     {
         id: 73,
         name: 'Самурай',
-        image: '/media/73.png',
+        image: '/73.png',
+        imageMin: '/73-min.png',
         categoryId: 'dining-groups',
         dimensionsComplex: {
             stool: {
@@ -1413,7 +1486,8 @@ export const products: Product[] = [
     {
         id: 74,
         name: 'Самурай',
-        image: '/media/74.png',
+        image: '/74.png',
+        imageMin: '/74-min.png',
         categoryId: 'dining-groups',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -1433,7 +1507,8 @@ export const products: Product[] = [
     {
         id: 75,
         name: 'Фараон',
-        image: '/media/75.png',
+        image: '/75.png',
+        imageMin: '/75-min.png',
         categoryId: 'dining-groups',
         dimensionsComplex: {
             stool: {
@@ -1452,7 +1527,8 @@ export const products: Product[] = [
     {
         id: 76,
         name: 'Фараон',
-        image: '/media/76.png',
+        image: '/76.png',
+        imageMin: '/76-min.png',
         categoryId: 'dining-groups',
         extra: 'стол раскладной',
         dimensionsComplex: {
@@ -1472,7 +1548,8 @@ export const products: Product[] = [
     {
         id: 77,
         name: 'Колизей',
-        image: '/media/77.png',
+        image: '/77.png',
+        imageMin: '/77-min.png',
         categoryId: 'dining-groups',
         dimensionsComplex: {
             stool: {
@@ -1491,7 +1568,8 @@ export const products: Product[] = [
     {
         id: 78,
         name: 'K1',
-        image: '/media/78.png',
+        image: '/78.png',
+        imageMin: '/78-min.png',
         categoryId: 'cabinets',
         dimensions: {
             width: '800',
@@ -1503,7 +1581,8 @@ export const products: Product[] = [
     {
         id: 79,
         name: 'K2',
-        image: '/media/79.png',
+        image: '/79.png',
+        imageMin: '/79-min.png',
         categoryId: 'cabinets',
         dimensions: {
             width: '800',
@@ -1515,7 +1594,8 @@ export const products: Product[] = [
     {
         id: 80,
         name: 'K3',
-        image: '/media/80.png',
+        image: '/80.png',
+        imageMin: '/80-min.png',
         categoryId: 'cabinets',
         dimensions: {
             width: '1050',
@@ -1527,7 +1607,8 @@ export const products: Product[] = [
     {
         id: 81,
         name: 'K4',
-        image: '/media/81.png',
+        image: '/81.png',
+        imageMin: '/81-min.png',
         categoryId: 'cabinets',
         dimensions: {
             width: '800',
@@ -1539,7 +1620,8 @@ export const products: Product[] = [
     {
         id: 82,
         name: 'K5',
-        image: '/media/82.png',
+        image: '/82.png',
+        imageMin: '/82-min.png',
         categoryId: 'cabinets',
         dimensions: {
             width: '800',
@@ -1551,7 +1633,8 @@ export const products: Product[] = [
     {
         id: 83,
         name: 'K6',
-        image: '/media/83.png',
+        image: '/83.png',
+        imageMin: '/83-min.png',
         categoryId: 'cabinets',
         dimensions: {
             width: '720',
@@ -1563,7 +1646,8 @@ export const products: Product[] = [
     {
         id: 84,
         name: 'K7',
-        image: '/media/84.png',
+        image: '/84.png',
+        imageMin: '/84-min.png',
         categoryId: 'cabinets',
         dimensions: {
             width: '800',
@@ -1575,7 +1659,8 @@ export const products: Product[] = [
     {
         id: 85,
         name: 'Кресло "Мяч"',
-        image: '/media/85.png',
+        image: '/85.png',
+        imageMin: '/85-min.png',
         categoryId: 'non-frame-furniture',
         dimensions: {
             length: '1000',
@@ -1586,7 +1671,8 @@ export const products: Product[] = [
     {
         id: 86,
         name: 'Кресло "Груша"',
-        image: '/media/86.png',
+        image: '/86.png',
+        imageMin: '/86-min.png',
         categoryId: 'non-frame-furniture',
         dimensions: {
             length: '1000',
@@ -1597,7 +1683,8 @@ export const products: Product[] = [
     {
         id: 87,
         name: 'Кресло "Заяц"',
-        image: '/media/87.png',
+        image: '/87.png',
+        imageMin: '/87-min.png',
         categoryId: 'non-frame-furniture',
         dimensions: {
             length: '1000',
@@ -1608,7 +1695,8 @@ export const products: Product[] = [
     {
         id: 88,
         name: 'Кресло "Пингвин"',
-        image: '/media/88.png',
+        image: '/88.png',
+        imageMin: '/88-min.png',
         categoryId: 'non-frame-furniture',
         dimensions: {
             length: '1000',

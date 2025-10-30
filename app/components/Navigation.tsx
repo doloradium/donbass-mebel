@@ -53,14 +53,14 @@ export default function Navigation() {
                             </Link>
 
                             <Link
-                                href='#about'
+                                href='/#about'
                                 className='transition-colors duration-[800ms] ease-in-out text-gray-700 hover:text-blue-500 px-3 py-2 font-medium'
                             >
                                 О нас
                             </Link>
 
                             <Link
-                                href='#contacts'
+                                href='/#contacts'
                                 className='transition-colors duration-[800ms] ease-in-out text-gray-700 hover:text-blue-500 px-3 py-2 font-medium'
                             >
                                 Контакты
@@ -130,7 +130,7 @@ export default function Navigation() {
                     >
                         <div className='px-2 pt-2 pb-3 flex flex-col space-y-1 sm:px-3 bg-white border-t'>
                             <Link
-                                href='#about'
+                                href='/#about'
                                 className='transition-colors duration-[800ms] ease-in-out text-gray-700 hover:text-blue-500 px-3 py-2 font-medium'
                                 onClick={() => setIsMenuOpen(false)}
                             >
@@ -138,7 +138,7 @@ export default function Navigation() {
                             </Link>
 
                             <Link
-                                href='#contacts'
+                                href='/#contacts'
                                 className='transition-colors duration-[800ms] ease-in-out text-gray-700 hover:text-blue-500 px-3 py-2 font-medium'
                                 onClick={() => setIsMenuOpen(false)}
                             >

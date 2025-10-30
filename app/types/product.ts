@@ -2,6 +2,7 @@ export interface Product {
     id: number;
     name: string;
     image: string;
+    imageMin: string;
     categoryId: string;
     extra?: string;
     dimensions?: {
